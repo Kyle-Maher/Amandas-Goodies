@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-label="Chocolate chip muffins placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8b98c"/>
+      <stop offset="1" stop-color="#7a5230"/>
+    </linearGradient>
+    <linearGradient id="wrap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a4a2a"/>
+      <stop offset="1" stop-color="#3a2614"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="280" fill="url(#bg)"/>
+  <g>
+    <path d="M115 220 L150 220 L155 175 L110 175 Z" fill="url(#wrap)"/>
+    <ellipse cx="132" cy="170" rx="45" ry="35" fill="#d6a36e"/>
+    <circle cx="118" cy="155" r="5" fill="#2b1a0d"/>
+    <circle cx="138" cy="160" r="6" fill="#2b1a0d"/>
+    <circle cx="128" cy="178" r="5" fill="#2b1a0d"/>
+    <circle cx="150" cy="150" r="4" fill="#2b1a0d"/>
+
+    <path d="M255 220 L290 220 L295 175 L250 175 Z" fill="url(#wrap)"/>
+    <ellipse cx="272" cy="170" rx="45" ry="35" fill="#d6a36e"/>
+    <circle cx="260" cy="155" r="5" fill="#2b1a0d"/>
+    <circle cx="282" cy="160" r="6" fill="#2b1a0d"/>
+    <circle cx="270" cy="180" r="5" fill="#2b1a0d"/>
+    <circle cx="288" cy="148" r="4" fill="#2b1a0d"/>
+  </g>
+  <text x="200" y="255" font-family="Georgia, serif" font-size="18" font-style="italic" text-anchor="middle" fill="#faf3e7">Chocolate Chip Muffins</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-label="Banana bread placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6cb98"/>
+      <stop offset="1" stop-color="#9a6c3a"/>
+    </linearGradient>
+    <linearGradient id="crust" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a3691c"/>
+      <stop offset="1" stop-color="#5a3812"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="280" fill="url(#bg)"/>
+  <g transform="translate(80,100)">
+    <path d="M0 60 Q0 20 30 15 L210 15 Q240 20 240 60 L240 110 L0 110 Z" fill="url(#crust)"/>
+    <path d="M15 60 Q15 30 40 28 L200 28 Q225 30 225 60 L225 85 Q120 70 15 85 Z" fill="#d6a36e"/>
+    <g fill="#3a1f0d" opacity="0.7">
+      <circle cx="60" cy="55" r="3"/>
+      <circle cx="100" cy="48" r="3"/>
+      <circle cx="140" cy="58" r="3"/>
+      <circle cx="180" cy="50" r="3"/>
+      <circle cx="80" cy="70" r="3"/>
+      <circle cx="160" cy="70" r="3"/>
+    </g>
+  </g>
+  <text x="200" y="255" font-family="Georgia, serif" font-size="18" font-style="italic" text-anchor="middle" fill="#faf3e7">Banana Bread</text>
+</svg>

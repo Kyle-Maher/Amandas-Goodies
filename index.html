@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amanda's Goodies — Home Bakery</title>
+  <meta name="description" content="Fresh-baked cookies, muffins, cinnamon rolls, and banana bread from Amanda's home kitchen." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Amanda's Goodies</h1>
+      <p class="tagline">Baked with love, straight from our home kitchen</p>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#gallery">The Goodies</a>
+      <a href="#order">Order</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-inner">
+        <h2>Fresh from the oven</h2>
+        <p>Cookies, muffins, cinnamon rolls, and banana bread &mdash; baked in small batches.</p>
+        <a class="btn" href="#order">Place an Order</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Amanda</h2>
+        <p>
+          Hi, I'm Amanda! What started as weekend baking for family and friends has grown
+          into a little home bakery I run out of my own kitchen. Every batch is mixed,
+          scooped, and baked by hand &mdash; no shortcuts, just real ingredients and
+          recipes I've been perfecting for years.
+        </p>
+        <p>
+          All orders are pickup only and arranged in person. Thanks for supporting a
+          small, hometown baker!
+        </p>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <h2>The Goodies</h2>
+        <p class="section-intro">Click around &mdash; here's what's usually on the menu.</p>
+
+        <h3 class="category">Cookies</h3>
+        <div class="grid">
+          <article class="card">
+            <img src="images/monster-cookies.svg" alt="Monster cookies" />
+            <h4>Monster Cookies</h4>
+            <ul class="prices">
+              <li>$3.50 &middot; 6 cookies</li>
+              <li>$9.00 &middot; 18 cookies</li>
+            </ul>
+          </article>
+          <article class="card">
+            <img src="images/chip-cookies.svg" alt="Chocolate chip cookies" />
+            <h4>Chip Cookies</h4>
+            <ul class="prices">
+              <li>$2.50 &middot; 6 cookies</li>
+              <li>$6.00 &middot; 18 cookies</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 class="category">Muffins</h3>
+        <div class="grid">
+          <article class="card">
+            <img src="images/blueberry-muffins.svg" alt="Blueberry muffins" />
+            <h4>Blueberry Muffins</h4>
+            <ul class="prices">
+              <li>$7.00 &middot; dozen</li>
+            </ul>
+          </article>
+          <article class="card">
+            <img src="images/chocolate-chip-muffins.svg" alt="Chocolate chip muffins" />
+            <h4>Chocolate Chip Muffins</h4>
+            <ul class="prices">
+              <li>$7.00 &middot; dozen</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 class="category">From the Oven</h3>
+        <div class="grid">
+          <article class="card">
+            <img src="images/cinnamon-rolls.svg" alt="Cinnamon rolls" />
+            <h4>Cinnamon Rolls</h4>
+            <ul class="prices">
+              <li>$1.00 &middot; per roll</li>
+            </ul>
+          </article>
+          <article class="card">
+            <img src="images/banana-bread.svg" alt="Banana bread" />
+            <h4>Banana Bread</h4>
+            <ul class="prices">
+              <li>$7.00 &middot; per loaf</li>
+              <li>$1.50 &middot; per mini loaf</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="order">
+      <div class="container">
+        <h2>Place an Order</h2>
+        <p class="section-intro">Orders are taken through a quick form &mdash; pickup is arranged in person.</p>
+
+        <!--
+          TODO: Replace the .form-placeholder card below with the Google Form embed:
+          <iframe
+            src="https://docs.google.com/forms/d/e/FORM_ID/viewform?embedded=true"
+            width="100%" height="900" frameborder="0" marginheight="0" marginwidth="0">
+            Loading…
+          </iframe>
+        -->
+        <div class="form-placeholder">
+          <div class="form-placeholder-icon" aria-hidden="true">&#9749;</div>
+          <h3>Order form coming soon</h3>
+          <p>The order form is being finalized. Check back shortly &mdash; you'll be able to place an order right here.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Amanda's Goodies &middot; Home Bakery</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

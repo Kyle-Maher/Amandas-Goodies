@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 280" role="img" aria-label="Cinnamon rolls placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8c794"/>
+      <stop offset="1" stop-color="#a87242"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="280" fill="url(#bg)"/>
+  <g transform="translate(140,150)">
+    <circle r="60" fill="#c9874a"/>
+    <path d="M 0 0 m -45 0 a 45 45 0 1 1 90 0 a 45 45 0 1 1 -90 0" fill="none" stroke="#6b3a18" stroke-width="6"/>
+    <path d="M 0 0 m -30 0 a 30 30 0 1 1 60 0 a 30 30 0 1 1 -60 0" fill="none" stroke="#6b3a18" stroke-width="5"/>
+    <path d="M 0 0 m -15 0 a 15 15 0 1 1 30 0 a 15 15 0 1 1 -30 0" fill="none" stroke="#6b3a18" stroke-width="4"/>
+    <path d="M -55 -10 Q -30 -25 0 -20 Q 30 -15 50 -25 Q 35 -5 50 5 Q 25 10 0 5 Q -25 0 -55 -10 Z" fill="#fff8e6" opacity="0.9"/>
+  </g>
+  <g transform="translate(270,160)">
+    <circle r="50" fill="#c9874a"/>
+    <path d="M 0 0 m -38 0 a 38 38 0 1 1 76 0 a 38 38 0 1 1 -76 0" fill="none" stroke="#6b3a18" stroke-width="5"/>
+    <path d="M 0 0 m -22 0 a 22 22 0 1 1 44 0 a 22 22 0 1 1 -44 0" fill="none" stroke="#6b3a18" stroke-width="4"/>
+    <path d="M -45 -8 Q -20 -22 5 -18 Q 30 -14 45 -22 Q 30 -2 45 8 Q 20 12 -5 6 Q -25 2 -45 -8 Z" fill="#fff8e6" opacity="0.9"/>
+  </g>
+  <text x="200" y="255" font-family="Georgia, serif" font-size="18" font-style="italic" text-anchor="middle" fill="#faf3e7">Cinnamon Rolls</text>
+</svg>
