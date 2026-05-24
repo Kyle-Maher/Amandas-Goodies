@@ -11,8 +11,8 @@
 const ITEMS = [
   { id: 'monster_6',          name: 'Monster Cookies (6-pack)',           price: 3.50, available: true },
   { id: 'monster_18',         name: 'Monster Cookies (18-pack)',          price: 9.00, available: true },
-  { id: 'chip_6',             name: 'Chip Cookies (6-pack)',              price: 2.50, available: true },
-  { id: 'chip_18',            name: 'Chip Cookies (18-pack)',             price: 6.00, available: true },
+  { id: 'chip_6',             name: 'Chocolate Chip Cookies (6-pack)',    price: 2.50, available: true },
+  { id: 'chip_18',            name: 'Chocolate Chip Cookies (18-pack)',   price: 6.00, available: true },
   { id: 'blueberry_dozen',    name: 'Blueberry Muffins (dozen)',          price: 7.00, available: true },
   { id: 'choc_chip_dozen',    name: 'Chocolate Chip Muffins (dozen)',     price: 7.00, available: true },
   { id: 'cinnamon_roll',      name: 'Cinnamon Rolls (per roll)',          price: 1.00, available: true },
