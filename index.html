@@ -100,6 +100,8 @@
         <h2>Place an Order</h2>
         <p class="section-intro">Fill out the form below. Payment is handled in person.</p>
 
+        <div id="site-notice" class="site-notice" aria-live="polite"></div>
+
         <form id="order-form" class="order-form" novalidate>
           <div class="form-grid">
             <label class="field">
@@ -189,6 +191,7 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+  <script src="js/notice.js"></script>
   <script src="js/order.js"></script>
 </body>
 </html>
